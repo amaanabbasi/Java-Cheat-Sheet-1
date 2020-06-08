@@ -428,3 +428,8 @@ What is double checked locking in Singleton
 o If in a multi-threaded environment DCL may not be reliable so be sure to use
 synchronized keyword in this scenario
 
+RMI registry
+- It is a namespace on which all the server objects are placed.
+- bind and rebind methods bind objects in rmi registry.(Server-Side functions)
+- lookup() fetches the objects. The client doesn't know wheher the method is located so it does a lookup in  the rmi registry to get the address.
+-
