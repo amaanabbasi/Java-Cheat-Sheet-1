@@ -31,7 +31,8 @@ Interface vs. Abstract Classes
 
 - **Notes**
   - Final variables
-If a variable is declared with the final keyword, its value cannot be changed once initialized. Note that the variable does not necessarily have to be initialized at the time of declaration. If it's declared but not yet initialized, it's called a blank final variable.
+    If a variable is declared with the final keyword, its value cannot be changed once initialized. Note that the variable       does not necessarily have to be initialized at the time of declaration. If it's declared but not yet initialized, it's       called a blank final variable.
+
 Constructors
 - No return type
 - They are the skeleton of an object, they allow you to create and object
